@@ -1,0 +1,39 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.navbarBrand {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #1a1a1a;
+}
+
+.navbarLogo {
+  margin-right: 0.5rem;
+  font-size: 1.5rem;
+  color: #2f584e;
+}
+
+.navbarLinks {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  @media (max-width: 400px) {
+    display: none;
+  }
+}
+
+.navbarLinks a {
+  text-decoration: none;
+  color: #838383;
+  transition: color 0.3s ease;
+}
+
+.navbarLinks a:hover {
+  color: #ff9257;
+}

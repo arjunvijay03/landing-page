@@ -1,0 +1,24 @@
+.mainContainer {
+  @media (min-width: 1200px) {
+    display: flex;
+  }
+}
+
+.leftSide {
+  @media (min-width: 1200px) {
+    width: 60%;
+  }
+}
+
+.rightSide {
+  @media (min-width: 1200px) {
+    width: 40%;
+  }
+}
+
+.navHeroWrapper {
+  @media (min-width: 400px) {
+    padding: 2rem;
+    padding-left: 2.5rem;
+  }
+}
