@@ -17,7 +17,7 @@
 }
 
 .navHeroWrapper {
-  @media (min-width: 400px) {
+  @media (min-width: 500px) {
     padding: 2rem;
     padding-left: 2.5rem;
   }

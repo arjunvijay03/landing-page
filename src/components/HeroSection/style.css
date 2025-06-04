@@ -77,20 +77,24 @@
 }
 
 .heroButtons {
-  @media (min-width: 400px) {
-    display: flex;
-    gap: 1rem;
+  display: flex;
+  gap: 1rem;
+  @media (max-width: 500px) {
+    flex-direction: column;
   }
 }
 
 .bookSeatBtn,
 .seeJourneyBtn {
-  padding: 0rem 3rem;
+  padding-inline: 3rem;
   border: none;
   border-radius: 60px;
   font-size: 1.5rem;
   cursor: pointer;
   transition: all 0.3s ease;
+  @media (max-width: 500px) {
+    padding-block: 1rem;
+  }
 }
 
 .bookSeatBtn {
